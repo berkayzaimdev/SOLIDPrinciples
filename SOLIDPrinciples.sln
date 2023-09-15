@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{77D76C91-4E23-4C62-9A19-BE6CC7C19D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{77D76C91-4E23-4C62-9A19-BE6CC7C19D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{C54448A9-7609-41A4-8B46-069BCA3738B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{C54448A9-7609-41A4-8B46-069BCA3738B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{716B7A89-2E1F-4CC2-9812-34B0EB162236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C54448A9-7609-41A4-8B46-069BCA3738B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54448A9-7609-41A4-8B46-069BCA3738B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54448A9-7609-41A4-8B46-069BCA3738B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716B7A89-2E1F-4CC2-9812-34B0EB162236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716B7A89-2E1F-4CC2-9812-34B0EB162236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716B7A89-2E1F-4CC2-9812-34B0EB162236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716B7A89-2E1F-4CC2-9812-34B0EB162236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
